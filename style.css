@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.center-box{
+    display: flex;
+    height: 200px;
+    max-width: 1000px;
+    background-color: darkblue;
+    align-items: center;
+    justify-content: center;
+    
+}
+.center-item{
+    height: 75px;
+    width: 75px;
+    background-color: burlywood;
+    
+}
+.nav-bar{
+    height: 75px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(68, 146,237);
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: auto;
+    margin: auto;
+    width: 70%;
+    color: white;
+}
+
+.nav-bar h1{
+    color: white;
+    margin: 20px;
+}
+
+.dojo{
+    width: 50px;
+    height: 25px;
+}
